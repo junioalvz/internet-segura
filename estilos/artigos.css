@@ -1,0 +1,90 @@
+/* Estilos para a página de artigos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Título principal */
+.container1 h1 {
+    color: #333;
+    font-weight: bold;
+    font-size: 28px;
+    margin-bottom: 2rem;
+    position: relative;
+    padding-bottom: 10px;
+}
+
+.h1container h1::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 250px;
+    height: 3px;
+    background-color: #F2A922;
+}
+/* navbar */
+.navbar {
+    width: 100%;
+    background-color: #F2A922;
+    padding: 1rem 2rem;
+}
+
+.navbar .container-fluid {
+    max-width: 1536px;
+    margin: 0 auto;
+}
+
+.h1container {
+    margin: 10px;
+    padding-top: 7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.figure-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    max-width: 1536px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.figure {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.figure-img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.figure-caption {
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: justify;
+    margin-top: 10px;
+    word-break: break-word;
+}
+
+/*  Rodapé */
+footer {
+    text-align: center;
+    width: 100%;
+    background-color: #333;
+    color: #dddddd;
+    padding: 30px;
+    margin-top: 50px;
+}

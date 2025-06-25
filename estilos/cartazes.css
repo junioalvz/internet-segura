@@ -1,0 +1,120 @@
+/* Estilos para a página de cartazes */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Título principal */
+.container h1 {
+    color: #333;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    position: relative;
+    padding-bottom: 10px;
+}
+
+.container h1::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100px;
+    height: 3px;
+    background-color: #F2A922;
+}
+
+/* navbar */
+.navbar {
+    width: 100%;
+    background-color: #F2A922;
+    padding: 1rem 2rem;
+}
+
+.navbar .container-fluid {
+    max-width: 1536px;
+    margin: 0 auto;
+}
+
+
+
+/* Cards dos cartazes */
+.card {
+    transition: all 0.3s ease;
+    border: none;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+}
+
+.card-img-top {
+    width: 00px;
+    height: 580px;
+    object-fit: contain;
+    padding: 1rem;
+    background-color: #f8f9fa;
+}
+
+.card-body {
+    padding: 1.5rem;
+    text-align: center;
+}
+
+.card-title {
+    color: #333;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    padding-bottom: 10px;
+}
+
+/* Botão personalizado */
+.btn-primary {
+    background-color: #F2A922;
+    border-color: #F2A922;
+    padding: 0.5rem 1.5rem;
+    font-weight: 500;
+}
+
+.btn-primary:hover {
+    background-color: #d99116;
+    border-color: #d99116;
+}
+
+/* Modal */
+.modal-content {
+    border: none;
+    border-radius: 8px;
+}
+
+.modal-header {
+    background-color: #F2A922;
+    color: white;
+    border-radius: 8px 8px 0 0;
+}
+
+.modal-body {
+    padding: 1rem;
+    background-color: #f8f9fa;
+    margin: 0 auto;
+    max-height: 90vh;
+}
+
+.modal-body img {
+    width: auto;
+    max-height: 80vh;
+    border-radius: 4px;
+} 
+
+/* 🔹 Rodapé */
+footer {
+    text-align: center;
+    width: 100%;
+    background-color: #333;
+    color: #dddddd;
+    padding: 30px;
+    margin-top: 50px;
+}
