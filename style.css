@@ -425,8 +425,21 @@ footer {
 @media (max-width: 768px) {
     .hero {
         height: 60vh;
+        }
+        .footer-links,
+        .footer-contact,
+        .footer-logo {
+            text-align: center;
     }
     
+    .footer-links ul {
+        padding-left: 0;
+    }
+
+    .social-icons {
+        justify-content: center;
+    }
+
     .hero-content {
         width: 95%;
     }
