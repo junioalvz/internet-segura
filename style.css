@@ -309,6 +309,43 @@ body {
     transition: all 0.3s ease;
 }
 
+
+.cartilha-section {
+  background-color: #fff9ec;
+  padding: 60px 20px;
+  border-top: 2px solid #f2a92233;
+  border-bottom: 2px solid #f2a92233;
+  margin-top: 40px;
+}
+
+.cartilha-section .section-title {
+  font-size: 2rem;
+  margin-bottom: 15px;
+}
+
+.cartilha-section .section-subtitle {
+  font-size: 1.1rem;
+  margin-bottom: 30px;
+  color: #555;
+}
+
+.download-btn {
+  font-size: 1.1rem;
+  font-weight: 600;
+  background-color: #F2A922;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 8px;
+  color: #222;
+  transition: background-color 0.3s ease;
+}
+
+.download-btn:hover {
+  background-color: #e89d11;
+  color: #fff;
+}
+
+
 .btn-saibamais:hover {
     background-color: #F2A922;
     color: white;
